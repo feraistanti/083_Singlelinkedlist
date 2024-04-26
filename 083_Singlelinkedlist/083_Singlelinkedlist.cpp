@@ -162,4 +162,4 @@ int main() {
                     break;
                 }
 
-                 
+                int nim;
