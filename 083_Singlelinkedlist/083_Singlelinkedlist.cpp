@@ -145,7 +145,7 @@ int main() {
             cout << "Pilihan: ";
             cin >> pilihan;
             switch (pilihan)
-        
+
             {
             case 1:
                 addNode();
@@ -153,3 +153,13 @@ int main() {
                 system("pause");
                 system("cls");
                 break;
+            case 2:
+                if (listEmpty())
+                {
+                    cout << "List kosong" << endl;
+                    system("pause");
+                    system("cls");
+                    break;
+                }
+
+                 
